@@ -2,6 +2,9 @@ import requests
 import lxml.html
 import json
 
+# tutorial from An Intro to Web Scraping With lxml and Python – Python Tips
+# https://pythontips.com/2018/06/20/an-intro-to-web-scraping-with-lxml-and-python/
+
 # html = requests.get("https://www.beatport.com/genre/psy-trance/13/top-100")
 html = requests.get("https://store.steampowered.com/explore/new/")
 doc = lxml.html.fromstring(html.content)

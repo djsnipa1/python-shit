@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 requests = "*"
 lxml = "*"
+mechanize = "*"
 
 [requires]
 python_version = "3.7"
