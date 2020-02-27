@@ -24,7 +24,9 @@ jobs:
         sudo apt-get update
         sudo apt-get install pipenv
         pipenv --three
-        pipenv install
+    name: Run scrape.py
+      run: |
+        python scrape.py
     - name: Lint with flake8
       run: |
         pip install flake8
