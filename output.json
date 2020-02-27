@@ -1,1 +1,484 @@
-[{"title": "RimWorld - Royalty", "price": "$19.99", "tags": ["Indie", "Strategy", "Simulation"], "platforms": ["win", "mac", "linux"]}, {"title": "Tony Stewart's Sprint Car Racing", "price": "$29.99", "tags": ["Racing", "Sports", "Simulation", "Multiplayer"], "platforms": ["win"]}, {"title": "Death and Taxes", "price": "$9.74", "tags": ["Simulation", "Strategy", "Indie", "Casual"], "platforms": ["win", "mac", "linux"]}, {"title": "Tank Mechanic Simulator", "price": "$17.99", "tags": ["Simulation", "Adventure", "Casual", "Indie"], "platforms": ["win"]}, {"title": "Taur", "price": "$22.49", "tags": ["Action", "Strategy", "Indie", "Tower Defense"], "platforms": ["win"]}, {"title": "Blackwake", "price": "$8.99", "tags": ["Pirates", "Multiplayer", "Naval Combat", "Naval"], "platforms": ["win", "mac"]}, {"title": "The Suicide of Rachel Foster", "price": "$13.49", "tags": ["Adventure", "Indie", "Casual", "Walking Simulator"], "platforms": ["win"]}, {"title": "DCL - The Game", "price": "$25.49", "tags": ["Simulation", "Racing", "Sports", "Action"], "platforms": ["win", "mac"]}, {"title": "Tom Clancy's Rainbow Six\u00ae Siege - Year 5 Pass", "price": "$24.99", "tags": ["Action", "FPS", "Multiplayer"], "platforms": ["win"]}, {"title": "Besiege", "price": "$4.99", "tags": ["Building", "Sandbox", "Physics", "Destruction"], "platforms": ["win", "mac", "linux"]}, {"title": "Warzone 2100", "price": "Free", "tags": ["Free to Play", "Strategy", "Real Time Tactics", "RTS"], "platforms": ["win"]}, {"title": "Metro Exodus", "price": "$39.99", "tags": ["Post-apocalyptic", "Action", "Atmospheric", "FPS"], "platforms": ["win"]}, {"title": "DAEMON X MACHINA", "price": "$59.99", "tags": ["Action", "Mechs", "Anime", "Character Customization"], "platforms": ["win"]}, {"title": "Wolcen: Lords of Mayhem", "price": "$39.99", "tags": ["RPG", "Hack and Slash", "Action RPG", "Action"], "platforms": ["win"]}, {"title": "Kill or Love", "price": "Free", "tags": ["Free to Play", "Casual", "Indie", "Psychological Horror"], "platforms": ["win", "mac", "linux"]}, {"title": "Moe Era", "price": "Free To Play", "tags": ["Free to Play", "Visual Novel", "Indie", "Casual"], "platforms": ["win", "mac", "linux"]}, {"title": "Split or Steal", "price": "Free To Play", "tags": ["Free to Play", "Casual", "Simulation", "Social Deduction"], "platforms": ["win"]}, {"title": "The Walking Dead: Saints & Sinners", "price": "$39.99", "tags": ["Action", "Adventure", "RPG", "Indie"], "platforms": ["win"]}, {"title": "DRAGON BALL Z: KAKAROT", "price": "$59.99", "tags": ["Action", "RPG", "Anime", "Fighting"], "platforms": ["win"]}, {"title": "Darwin Project", "price": "Free To Play", "tags": ["Battle Royale", "Multiplayer", "Survival", "Action"], "platforms": ["win"]}, {"title": "Coloring Game 2", "price": "Free To Play", "tags": ["Free to Play", "Casual", "Indie", "Pixel Graphics"], "platforms": ["win"]}, {"title": "Monster Hunter World: Iceborne", "price": "$39.99", "tags": ["Action", "Multiplayer", "Co-op", "Hunting"], "platforms": ["win"]}, {"title": "Pixel Studio for pixel art", "price": "Free To Play", "tags": ["Animation & Modeling", "Design & Illustration", "Game Development", "Photo Editing"], "platforms": ["win"]}, {"title": "Eternal Battlefield", "price": "Free To Play", "tags": ["Free to Play", "Casual", "Strategy", "Indie"], "platforms": ["win"]}, {"title": "Transport Fever 2", "price": "$39.99", "tags": ["Simulation", "Strategy", "Management", "Trains"], "platforms": ["win", "linux"]}, {"title": "BONEWORKS", "price": "$29.99", "tags": ["VR", "Physics", "Masterpiece", "Action"], "platforms": ["win"]}, {"title": "BONEWORKS", "price": "$29.99", "tags": ["VR", "Physics", "Masterpiece", "Action"], "platforms": ["win"]}, {"title": "DRAGON QUEST BUILDERS\u2122 2", "price": "$59.99", "tags": ["RPG", "Adventure", "Action", "Open World Survival Craft"], "platforms": ["win"]}, {"title": "Red Dead Redemption 2", "price": "$59.99", "tags": ["Adventure", "Action", "Open World", "Western"], "platforms": ["win"]}, {"title": "Paunch", "price": "Free To Play", "tags": ["Masterpiece", "Free to Play", "Multiplayer", "Sexual Content"], "platforms": ["win"]}, {"title": "Paunch", "price": "Free To Play", "tags": ["Masterpiece", "Free to Play", "Multiplayer", "Sexual Content"], "platforms": ["win"]}, {"title": "Halo: The Master Chief Collection", "price": "$39.99", "tags": ["Masterpiece", "Great Soundtrack", "FPS", "Classic"], "platforms": ["win"]}, {"title": "Football Manager 2020", "price": "$49.99", "tags": ["Simulation", "Sports", "Management", "Soccer"], "platforms": ["win", "mac"]}, {"title": "STAR WARS Jedi: Fallen Order\u2122", "price": "$59.99", "tags": ["Action", "Adventure", "Star Wars", "Souls-like"], "platforms": ["win"]}, {"title": "STAR WARS Jedi: Fallen Order Deluxe Edition", "price": "$69.99", "tags": ["Action", "Adventure", "Star Wars", "Souls-like"], "platforms": ["win"]}, {"title": "Age of Empires II: Definitive Edition", "price": "$19.99", "tags": ["Strategy", "RTS", "Multiplayer", "Historical"], "platforms": ["win"]}]
+[
+  {
+    "title": "BEAUTIFUL DESOLATION",
+    "price": "$17.99",
+    "tags": [
+      "Adventure",
+      "Indie",
+      "Casual",
+      "Isometric"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Out of Space",
+    "price": "$14.99",
+    "tags": [
+      "Strategy",
+      "Indie",
+      "Casual",
+      "Co-op"
+    ],
+    "platforms": [
+      "win",
+      "mac",
+      "linux"
+    ]
+  },
+  {
+    "title": "DRAGON BALL FIGHTERZ - FighterZ Pass 3",
+    "price": "$19.99",
+    "tags": [
+      "Action",
+      "Anime"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Wasteland Remastered",
+    "price": "$14.99",
+    "tags": [
+      "RPG",
+      "Strategy",
+      "Violent",
+      "Sexual Content"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Max Gentlemen Sexy Business!",
+    "price": "$17.99",
+    "tags": [
+      "Indie",
+      "Simulation",
+      "Sexual Content",
+      "Nudity"
+    ],
+    "platforms": [
+      "win",
+      "mac"
+    ]
+  },
+  {
+    "title": "Broken Lines",
+    "price": "$24.99",
+    "tags": [
+      "Strategy",
+      "Tactical",
+      "Turn-Based",
+      "Violent"
+    ],
+    "platforms": [
+      "win",
+      "linux"
+    ]
+  },
+  {
+    "title": "Expansion - Hearts of Iron IV: La R\u00e9sistance",
+    "price": "$19.99",
+    "tags": [
+      "Strategy",
+      "Simulation",
+      "World War II",
+      "Alternate History"
+    ],
+    "platforms": [
+      "win",
+      "mac",
+      "linux"
+    ]
+  },
+  {
+    "title": "Maiden and Spell",
+    "price": "$11.69",
+    "tags": [
+      "Action",
+      "Indie",
+      "Bullet Hell",
+      "Anime"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "RimWorld - Royalty",
+    "price": "$19.99",
+    "tags": [
+      "Indie",
+      "Strategy",
+      "Simulation"
+    ],
+    "platforms": [
+      "win",
+      "mac",
+      "linux"
+    ]
+  },
+  {
+    "title": "Tony Stewart's Sprint Car Racing",
+    "price": "$29.99",
+    "tags": [
+      "Racing",
+      "Sports",
+      "Simulation",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Death and Taxes",
+    "price": "$9.74",
+    "tags": [
+      "Simulation",
+      "Strategy",
+      "Indie",
+      "Casual"
+    ],
+    "platforms": [
+      "win",
+      "mac",
+      "linux"
+    ]
+  },
+  {
+    "title": "Tank Mechanic Simulator",
+    "price": "$17.99",
+    "tags": [
+      "Simulation",
+      "Adventure",
+      "Casual",
+      "Indie"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Taur",
+    "price": "$24.99",
+    "tags": [
+      "Action",
+      "Strategy",
+      "Indie",
+      "Tower Defense"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "DCL - The Game",
+    "price": "$29.99",
+    "tags": [
+      "Simulation",
+      "Racing",
+      "Sports",
+      "Action"
+    ],
+    "platforms": [
+      "win",
+      "mac"
+    ]
+  },
+  {
+    "title": "Tom Clancy's Rainbow Six\u00ae Siege - Year 5 Pass",
+    "price": "$24.99",
+    "tags": [
+      "Action",
+      "FPS",
+      "Multiplayer"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Besiege",
+    "price": "$9.99",
+    "tags": [
+      "Building",
+      "Sandbox",
+      "Physics",
+      "Destruction"
+    ],
+    "platforms": [
+      "win",
+      "mac",
+      "linux"
+    ]
+  },
+  {
+    "title": "Warzone 2100",
+    "price": "Free",
+    "tags": [
+      "Strategy",
+      "Free to Play",
+      "RTS",
+      "Real Time Tactics"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Metro Exodus",
+    "price": "$39.99",
+    "tags": [
+      "Post-apocalyptic",
+      "Action",
+      "Atmospheric",
+      "FPS"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "DAEMON X MACHINA",
+    "price": "$59.99",
+    "tags": [
+      "Action",
+      "Mechs",
+      "Anime",
+      "Character Customization"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Wolcen: Lords of Mayhem",
+    "price": "$39.99",
+    "tags": [
+      "RPG",
+      "Hack and Slash",
+      "Action RPG",
+      "Action"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Kill or Love",
+    "price": "Free",
+    "tags": [
+      "Free to Play",
+      "Casual",
+      "Indie",
+      "Anime"
+    ],
+    "platforms": [
+      "win",
+      "mac",
+      "linux"
+    ]
+  },
+  {
+    "title": "Moe Era",
+    "price": "Free To Play",
+    "tags": [
+      "Free to Play",
+      "Visual Novel",
+      "Indie",
+      "Casual"
+    ],
+    "platforms": [
+      "win",
+      "mac",
+      "linux"
+    ]
+  },
+  {
+    "title": "Split or Steal",
+    "price": "Free To Play",
+    "tags": [
+      "Free to Play",
+      "Casual",
+      "Simulation",
+      "Social Deduction"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "The Walking Dead: Saints & Sinners",
+    "price": "$39.99",
+    "tags": [
+      "Action",
+      "Adventure",
+      "RPG",
+      "Indie"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "The Walking Dead: Saints & Sinners",
+    "price": "$39.99",
+    "tags": [
+      "Action",
+      "Adventure",
+      "RPG",
+      "Indie"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "DRAGON BALL Z: KAKAROT",
+    "price": "$59.99",
+    "tags": [
+      "Action",
+      "RPG",
+      "Anime",
+      "Fighting"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "DRAGON BALL Z: KAKAROT",
+    "price": "$59.99",
+    "tags": [
+      "Action",
+      "RPG",
+      "Anime",
+      "Fighting"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "DRAGON BALL Z: KAKAROT",
+    "price": "$59.99",
+    "tags": [
+      "Action",
+      "RPG",
+      "Anime",
+      "Fighting"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Darwin Project",
+    "price": "Free To Play",
+    "tags": [
+      "Battle Royale",
+      "Multiplayer",
+      "Survival",
+      "Action"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Coloring Game 2",
+    "price": "Free To Play",
+    "tags": [
+      "Free to Play",
+      "Casual",
+      "Indie",
+      "Pixel Graphics"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Monster Hunter World: Iceborne",
+    "price": "$39.99",
+    "tags": [
+      "Action",
+      "Multiplayer",
+      "Co-op",
+      "Hunting"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Pixel Studio for pixel art",
+    "price": "Free To Play",
+    "tags": [
+      "Animation & Modeling",
+      "Design & Illustration",
+      "Game Development",
+      "Photo Editing"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Eternal Battlefield",
+    "price": "Free To Play",
+    "tags": [
+      "Free to Play",
+      "Casual",
+      "Strategy",
+      "Indie"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "Transport Fever 2",
+    "price": "$39.99",
+    "tags": [
+      "Simulation",
+      "Strategy",
+      "Management",
+      "Trains"
+    ],
+    "platforms": [
+      "win",
+      "linux"
+    ]
+  },
+  {
+    "title": "Pool 2D - Poolians",
+    "price": "Free To Play",
+    "tags": [
+      "Free to Play",
+      "Simulation",
+      "Casual",
+      "Indie"
+    ],
+    "platforms": [
+      "win"
+    ]
+  },
+  {
+    "title": "BONEWORKS",
+    "price": "$29.99",
+    "tags": [
+      "VR",
+      "Physics",
+      "Masterpiece",
+      "Action"
+    ],
+    "platforms": [
+      "win"
+    ]
+  }
+]
