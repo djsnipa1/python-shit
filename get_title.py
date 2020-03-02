@@ -8,7 +8,8 @@ doc = lxml.html.fromstring(html.content)
 
 title = doc.find(".//title").text
 
-print(title)
+# print("Title = " + title)
+
 
 urls = ["https://www.beatport.com", "https://www.github.com"]
 
@@ -17,5 +18,7 @@ for url in urls:
   doc = lxml.html.fromstring(html.content)
   title = doc.find(".//title").text
   description = doc.xpath('.//meta[@name="description"]/@content')
+  print(url)
   print(title)
   print(description)
+  print("---------------------------------")
