@@ -7,6 +7,7 @@ https://gist.github.com/gruber/8891611
 """
 
 import lxml.html
+
 # from urllib2 import urlopen
 import requests
 import re
@@ -21,11 +22,11 @@ title = doc.find(".//title").text
 
 # urls = ["https://www.beatport.com", "https://www.github.com"]
 
-s = 'This is my tweet check it out http://tinyurl.com/blah and http://blabla.com'
-print(re.findall(r'(https?://\S+)', s))
+s = "This is my tweet check it out http://tinyurl.com/blah and http://blabla.com"
+print(re.findall(r"(https?://\S+)", s))
 
-with open('parse.txt', 'r', encoding="utf8") as fh:
-    data = fh.read().replace('\n', '')
+with open("parse.txt", "r", encoding="utf8") as fh:
+    data = fh.read().replace("\n", "")
     # print(data)
     # links = re.findall(r'(https?://\S+)', data)
     # print(links)
@@ -44,7 +45,11 @@ with open('parse.txt', 'r', encoding="utf8") as fh:
         # print(title)
         # print(description)
         # print("---------------------------------")
-        print("\n[" + title + "](" + url + ")")  # adds new line in front of markdown links
-        split = str(description)[2:-2]  # Removes the [ ] and ' ' from each description line
-        print(split + '\n')  # adds a new line after the description
+        print(
+            "\n[" + title + "](" + url + ")"
+        )  # adds new line in front of markdown links
+        split = str(description)[
+            2:-2
+        ]  # Removes the [ ] and ' ' from each description line
+        print(split + "\n")  # adds a new line after the description
         print("- - -")  # obviously adds a hr to the file
