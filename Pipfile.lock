@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1b78f9662090c694b958e98fbcce30f6ef89f8bb23417e51d0953a9058d5ed5b"
+            "sha256": "7f3e540bb06431d401cfd0ad7c6bee5f3b11e28513135057973e92d034c7422f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,13 @@
         ]
     },
     "default": {
+        "appdirs": {
+            "hashes": [
+                "sha256:9e5896d1372858f8dd3344faf4e5014d21849c756c8d5701f78f8a103b372d92",
+                "sha256:d8b24664561d0d34ddfaec54636d502d7cea6e29c3eaf68f3df6180863e2166e"
+            ],
+            "version": "==1.4.3"
+        },
         "certifi": {
             "hashes": [
                 "sha256:017c25db2a153ce562900032d5bc68e9f191e44e9a0f762f373977de9df1fbb3",
@@ -77,6 +84,21 @@
             ],
             "index": "pypi",
             "version": "==2.23.0"
+        },
+        "uritools": {
+            "hashes": [
+                "sha256:405917a31ce58a57c8ccd0e4ea290f38baf2f4823819c3688f5331f1aee4ccb0",
+                "sha256:5ba20a5de979a6a65b3d55998bee86ca1d97075d0f22923b85590b5e39c2b307"
+            ],
+            "version": "==3.0.0"
+        },
+        "urlextract": {
+            "hashes": [
+                "sha256:29a061061661967eb8e2415b59a1257f76c83df8f2810a0d492cb68e28d72bd4",
+                "sha256:6ed1bc878bc0a2e6634d7ebf327a465c0b8482d65f4a883dab7f75a393aea80f"
+            ],
+            "index": "pypi",
+            "version": "==0.14.0"
         },
         "urllib3": {
             "hashes": [
