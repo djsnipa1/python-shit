@@ -19,8 +19,7 @@ title = doc.find(".//title").text
 
 # print("Title = " + title)
 
-
-urls = ["https://www.beatport.com", "https://www.github.com"]
+# urls = ["https://www.beatport.com", "https://www.github.com"]
 
 s = 'This is my tweet check it out http://tinyurl.com/blah and http://blabla.com'
 print(re.findall(r'(https?://\S+)', s))
