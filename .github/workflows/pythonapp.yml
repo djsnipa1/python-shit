@@ -20,8 +20,7 @@ jobs:
         args: .
     - name: Install dependencies
       run: |
-        sudo apt-get install pipenv
-        pipenv --three
+        pip install -r requirements.txt
     - name: Run get_title.py
       run: |
         python get_title.py
