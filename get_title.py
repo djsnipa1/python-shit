@@ -46,10 +46,10 @@ with open("parse.txt", "r", encoding="utf8") as fh:
         # print(description)
         # print("---------------------------------")
         print(
-            "\n[" + title + "](" + url + ")"
+            "\n[ ] - [" + title + "](" + url + ")"
         )  # adds new line in front of markdown links
         split = str(description)[
             2:-2
         ]  # Removes the [ ] and ' ' from each description line
-        print(split + "\n")  # adds a new line after the description
+        print("> " + split + "\n")  # adds a new line after the description
         print("- - -")  # obviously adds a hr to the file
