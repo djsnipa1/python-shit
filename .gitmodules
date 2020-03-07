@@ -1,0 +1,3 @@
+[submodule "Beatporter"]
+	path = Beatporter
+	url = https://github.com/rootshellz/Beatporter
