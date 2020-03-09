@@ -12,7 +12,7 @@ urlextract = "*"
 simplenote = "*"
 python-dotenv = {extras = ["cli"],version = "*"}
 html2text = "*"
-lassie = "*"
+beautifulsoup4 = "*"
 
 [requires]
 python_version = "3.7"
