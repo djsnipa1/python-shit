@@ -9,6 +9,10 @@ verify_ssl = true
 requests = "*"
 lxml = "*"
 urlextract = "*"
+simplenote = "*"
+python-dotenv = {extras = ["cli"],version = "*"}
+html2text = "*"
+lassie = "*"
 
 [requires]
 python_version = "3.7"
