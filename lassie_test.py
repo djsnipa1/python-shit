@@ -18,7 +18,8 @@ body = soup.find("body")
 pretty = body.prettify()
 print(html2text.html2text(pretty))
 
-with open('lassie_test.md', 'w', encoding='utf-8') as outfile:
-    html2text.html2text(pretty, outfile)
+# import io
+with open('lassie_test.md', 'w', encoding='utf-8') as outfile:  # type: IO[str]
+    outfile.write(html2text.html2text(pretty))
 
 # print(soup.encode("utf-8")

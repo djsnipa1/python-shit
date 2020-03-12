@@ -1,67 +1,62 @@
+https://www.sitepoint.com/zsh-commands-plugins-aliases-tools/
 
-[dkidd928/YouTubeClean: A JavaScript project to view YouTube videos/playlists as their embedded equivalent.](https://github.com/dkidd928/YouTubeClean)
+https://news.ycombinator.com/item?id=9869231
 
-[PolBaladas/torsimany: 💡✏️️ ⬇️️ JSON to Markdown converter - Generate Markdown from format independent JSON](https://github.com/PolBaladas/torsimany)
+https://blog.lftechnology.com/command-line-productivity-with-zsh-aliases-28b7cebfdff9
 
-[dkidd928/pngPalGen: A PNG color palette generator written in Python 3!](https://github.com/dkidd928/pngPalGen)
+https://www.sitepoint.com/zsh-tips-tricks/
 
+https://www.sitepoint.com/build-vue-chrome-extension/
 
+https://www.sitepoint.com/a-beginners-guide-to-pug/
 
-[Making Animated GIFs in Python](http://tabletopwhale.com/colorpalette.html)
+https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/
 
-[viticci/pythonista-scripts: Python scripts to use in Pythonista for iOS. Mostly Markdown-related.](https://github.com/viticci/pythonista-scripts)
+https://www.sitepoint.com/an-introduction-to-node-js/
 
+https://tailwindui.com/preview
 
-[kingname/MarkdownPicPicker: MarkdownPicPicker is a tool to upload a picture in clipboard to cloud and write a markdown format url of the picture to clipboard](https://github.com/kingname/MarkdownPicPicker)
+https://css.gg/
 
+https://ohshitgit.com/
 
-[wemake-python-styleguide · Actions · GitHub Marketplace](https://github.com/marketplace/actions/wemake-python-styleguide)
+https://pythonbasics.org/
 
+https://wingware.com/
 
-[googlearchive/appengine-mandelbrot-python: A simple example app showing how to dynamically generate animated fractal GIF images using numpy and PIL python libraries.](https://github.com/googlearchive/appengine-mandelbrot-python)
+https://www.ostechnix.com/5-ways-repeat-last-command-linux/
 
+https://www.ostechnix.com/apply-tags-to-linux-commands-to-easily-retrieve-them-from-history/
 
-[jwenjian/awesome-qrcode: Generate Awesome QR Code in python, support text, static picture and GIF !!!](https://github.com/jwenjian/awesome-qrcode)
+https://www.ostechnix.com/easily-recall-forgotten-linux-commands/
 
+https://www.ostechnix.com/pet-simple-command-line-snippet-manager/
 
-[tuomastik/gif_animations: 📼 GIF animations created in Python](https://github.com/tuomastik/gif_animations)
+https://www.ostechnix.com/save-commands-terminal-use-demand/
 
+https://www.ostechnix.com/bookmark-linux-commands-easier-repeated-invocation/
 
-[mapio/OpticalIllusions: Some Python code to reproduce a nice optical illusion found on the web.](https://github.com/mapio/OpticalIllusions)
+https://www.youtube.com/watch?v=uuZveb4Np1s
 
+https://www.youtube.com/watch?v=OPvd96T89po
 
-[Vector animations with Python - __del__( self )](http://zulko.github.io/blog/2014/09/20/vector-animations-with-python/)
+https://www.youtube.com/watch?v=lx7oqZ7Nl3k
 
+https://www.youtube.com/watch?v=ovql0Ui3n_I
 
-[controversial/Gif-Art: Python scripts using PIL and images2GIF to make animated generative art](https://github.com/controversial/Gif-Art)
+https://www.youtube.com/watch?v=ovql0Ui3n_I
 
+ihttps://www.youtube.com/watch?v=ve2pmm5JqmI
 
-[andrewhannebrink/photo-mosaic-video-generator: A python module for generating photo mosaic videos from mp4s with a variety of features for color and granularity filtering](https://github.com/andrewhannebrink/photo-mosaic-video-generator)
+https://www.youtube.com/watch?v=sugvnHA7ElY
 
+https://www.youtube.com/watch?v=tUUeQEIVBT8
 
-[wilfredinni/python-cheatsheet: Basic Cheat Sheet for Python (PDF, Markdown and Jupyter Notebook)](https://github.com/wilfredinni/python-cheatsheet)
+https://www.mattlayman.com/blog/2020/serverless-python/
 
+https://toga.readthedocs.io/en/latest/index.html
 
-[axiros/terminal_markdown_viewer: Styled Terminal Markdown Viewer](https://github.com/axiros/terminal_markdown_viewer)
+https://docs.beeware.org/en/latest/index.html
 
-
-[jreese/markdown-pp: Preprocessor for Markdown files to generate a table of contents and other documentation needs](https://github.com/jreese/markdown-pp)
-
-
-[matthewwithanm/python-markdownify: Convert HTML to Markdown](https://github.com/matthewwithanm/python-markdownify)
-
-
-[gaojiuli/tomd: Convert HTML to Markdown.](https://github.com/gaojiuli/tomd)
-
-
-[mplewis/csvtomd: 📝📊 Convert your CSV files into Markdown tables.](https://github.com/mplewis/csvtomd)
-
-
-[elehcimd/pynb: Jupyter Notebooks as plain Python code with embedded Markdown text](https://github.com/elehcimd/pynb)
-
-
-[vaputa/awesome-cheatsheet: A collection of awesome cheatsheets. Including git, python, c/c++, frontend, matlab, markdown, etc.](https://github.com/vaputa/awesome-cheatsheet)
-
-
-[willmcgugan/rich: Rich is a Python library for rich text and beautiful formatting in the terminal.](https://github.com/willmcgugan/rich)
+https://www.mattlayman.com/most-popular/
 

@@ -13,6 +13,7 @@ simplenote = "*"
 python-dotenv = {extras = ["cli"],version = "*"}
 html2text = "*"
 beautifulsoup4 = "*"
+spotipy = "*"
 
 [requires]
 python_version = "3.7"
