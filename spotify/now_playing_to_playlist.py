@@ -3,8 +3,20 @@
 import spotipy
 import spotipy.util as util
 from spotipy.oauth2 import SpotifyClientCredentials
+from pprint import pprint
 from dotenv import load_dotenv
 import os
+
+# import sys
+
+
+# if len(sys.argv) > 3:
+#     username = sys.argv[1]
+#     playlist_id = sys.argv[2]
+#     track_ids = sys.argv[3:]
+# else:
+#     print("Usage: %s username playlist_id track_id ..." % (sys.argv[0],))
+#     sys.exit()
 
 load_dotenv()  # loads .env
 
@@ -16,7 +28,7 @@ username = os.getenv("SPOTIFY_USERNAME")
 client_credentials_manager = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-scope = 'user-library-read user-read-currently-playing user-read-playback-state user-read-recently-played'
+scope = 'playlist-modify-private user-library-read user-read-currently-playing user-read-playback-state user-read-recently-played'
 token = util.prompt_for_user_token(username, scope, SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, SPOTIPY_REDIRECT_URI)
 
 if token:
@@ -75,14 +87,56 @@ def user_playlists():
 print(80 * "-")  # Displays -----
 print(current_user['display_name'])  # Displays user's real name
 print(40 * "=-")  # displays -=-=-=-=-
-number1 = float(input("Enter the first number: "))
-number2 = float(input("Enter the second number: "))
-solution = number1 + number2
-print("The sum of your numbers is {}".format(solution))
+
+current_track_artist_name = current_track['item']['artists'][0]['name']
+current_track_name = current_track['item']['name']
 
 try:
     print("Currently Playing...\n")
-    print("Artist: " + current_track['item']['album']['artists'][0]['name'])
-    print("Track: " + current_track['item']['name'])
+    print("Artist: " + current_track_artist_name)
+    print("Track: " + current_track_name)
 except TypeError:
     print("Nothing is currently playing")
+
+playlist_id = "4LX0m5XMIUVpiktVfUu1qY"
+
+
+def current_track_to_playlist():
+    """
+    Adds currently playing track to playlist
+    """
+    # spotify:playlist:4LX0m5XMIUVpiktVfUu1qY
+    tracks = [current_track['item']['id']]
+    # pprint(current_track['item'])
+    added_to_playlist = sp.user_playlist_add_tracks(username, playlist_id, tracks)
+    print(added_to_playlist)
+
+
+def print_playlist_tracks():
+    """
+    This prints a list of tracks in a playlist.
+    'track' , 'id' , 'name'
+    """
+    offset = 0
+    while True:
+        response = sp.playlist_tracks(playlist_id,
+                                      offset=offset,
+                                      fields='items.track.name,items.track.id,total')
+        pprint(response['items'])
+        offset = offset + len(response['items'])
+        print(offset, "/", response['total'])
+
+        if len(response['items']) == 0:
+            break
+
+
+print("Do you want to add '" + current_track_artist_name + " = " + current_track_name + "' to a playlist?")
+playlist_choice = str.lower(input("[Y]es or [N]o ? "))
+# number2 = float(input("Enter the second number: "))
+# solution = number1 + number2
+# print("The sum of your numbers is {}".format(solution))
+if playlist_choice == "y":
+    current_track_to_playlist()
+    print_playlist_tracks()
+else:
+    print_playlist_tracks()
