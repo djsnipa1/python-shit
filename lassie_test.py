@@ -19,7 +19,7 @@ pretty = body.prettify()
 print(html2text.html2text(pretty))
 
 # import io
-with open('lassie_test.md', 'w', encoding='utf-8') as outfile:  # type: IO[str]
+with open('lassie_test.md', 'w', encoding='utf-8') as outfile: 
     outfile.write(html2text.html2text(pretty))
 
 # print(soup.encode("utf-8")
