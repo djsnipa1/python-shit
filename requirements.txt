@@ -1,4 +1,13 @@
 appdirs==1.4.3
+certifi==2019.11.28
+chardet==3.0.4
+idna==2.9
+lxml==4.5.0
+requests==2.23.0
+uritools==3.0.0
+urlextract==0.14.0
+urllib3==1.25.8
+appdirs==1.4.3
 beautifulsoup4==4.8.2
 certifi==2019.11.28
 chardet==3.0.4
