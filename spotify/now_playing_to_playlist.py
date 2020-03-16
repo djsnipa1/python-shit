@@ -72,10 +72,17 @@ def user_playlists():
 
 # user_playlists()
 
-print(80 * "-")
+print(80 * "-")  # Displays -----
+print(current_user['display_name'])  # Displays user's real name
+print(40 * "=-")  # displays -=-=-=-=-
+number1 = float(input("Enter the first number: "))
+number2 = float(input("Enter the second number: "))
+solution = number1 + number2
+print("The sum of your numbers is {}".format(solution))
 
-print(current_user['display_name'])
-print(40 * "=-")
-print("Currently Playing...\n")
-print("Artist: " + current_track['item']['album']['artists'][0]['name'])
-print("Track: " + current_track['item']['name'])
+try:
+    print("Currently Playing...\n")
+    print("Artist: " + current_track['item']['album']['artists'][0]['name'])
+    print("Track: " + current_track['item']['name'])
+except TypeError:
+    print("Nothing is currently playing")

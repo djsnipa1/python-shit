@@ -258,3 +258,5 @@ pyvenv.cfg
 pip-selfcheck.json
 
 exportToHTML/**
+/spotify/.cache-225rpxn4vfmxoqug5o3s57qia
+
