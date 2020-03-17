@@ -21,9 +21,6 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
-    - name: Run get_title.py
-      run: |
-        python get_title.py
     - name: Lint with flake8
       run: |
         pip install flake8
@@ -31,7 +28,11 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with pytest
+    - name: Run get_title.py & covid19.py
       run: |
-        pip install pytest
-        pytest
+        python get_title.py
+        python covid19/covid19.py
+#    - name: Test with pytest
+#      run: |
+#        pip install pytest
+#        pytest

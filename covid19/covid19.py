@@ -31,17 +31,18 @@ def print_latest():
 print_latest()
 # print(pd_data['latest'])
 
-for key, items in data['confirmed']['locations']:
-    for item in items:
-        price = item['country']
-        print(price)
+# TODO This block of code
+# for key, items in data['confirmed']['locations']:
+#     for item in items:
+#         price = item['country']
+#         print(price)
 
-print(data['confirmed']['locations'].index("US"))
-
-pd_data = pd.DataFrame(data['confirmed']['locations'])
-
-pd_country = pd.DataFrame(data['confirmed']['locations'][0])
-
-json_data = pd.json_normalize(data)
-
-print(json_data['confirmed.locations'])
+# print(data['confirmed']['locations'].index("US"))
+#
+# pd_data = pd.DataFrame(data['confirmed']['locations'])
+#
+# pd_country = pd.DataFrame(data['confirmed']['locations'][0])
+#
+# json_data = pd.json_normalize(data)
+#
+# print(json_data['confirmed.locations'])
