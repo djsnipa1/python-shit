@@ -7,7 +7,8 @@ import time
 starttime = time.time()
 while True:
 
-    url = 'https://www.writeguard.com/catalog/Tax-Forms-Supplies/Affordable-Care-Act-Tax-Forms/Form-1095-B-Health-Coverage-B1095B05'
+    url = 'https://www.writeguard.com/catalog/Tax-Forms-Supplies/' \
+          'Affordable-Care-Act-Tax-Forms/Form-1095-B-Health-Coverage-B1095B05'
     user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
     values = {'name': 'Michael Foord',
               'location': 'Northampton',
@@ -22,7 +23,9 @@ while True:
 
     print("1 good")
 
-    someurl = "https://www.writeguard.com/catalog/Health-Care/Generic-Billing-Statements/WLCS107-BK-Generic-Laser-Statments-MCVISADISCAMEX-Blue"
+    someurl = "https://www.writeguard.com/catalog/Health-Care/" \
+              "Generic-Billing-Statements/" \
+              "WLCS107-BK-Generic-Laser-Statments-MCVISADISCAMEX-Blue"
     from urllib.request import Request, urlopen
     from urllib.error import URLError, HTTPError
 

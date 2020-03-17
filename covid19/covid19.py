@@ -1,8 +1,7 @@
 # coding=utf-8
-import requests
-import pandas as pd
-from pprint import pprint
 import json
+import pandas as pd
+import requests
 
 send_headers = {'Accept': 'application/json'}
 
@@ -43,12 +42,6 @@ pd_data = pd.DataFrame(data['confirmed']['locations'])
 
 pd_country = pd.DataFrame(data['confirmed']['locations'][0])
 
-from pandas.io.json import json_normalize
+json_data = pd.json_normalize(data)
 
-jsoned = pd.json_normalize(data)
-
-print(jsoned['confirmed.locations'])
-from pandas.io.json import json_normalize
-
-# with open('https://github.com/a9k00r/python-test/blob/master/raw_nyc_phil.json') as f:
-#     d = json.load(f)
+print(json_data['confirmed.locations'])

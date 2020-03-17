@@ -17,7 +17,8 @@ new_releases = doc.xpath('//div[@id="tab_newreleases_content"]')[0]
 titles = new_releases.xpath('.//div[@class="tab_item_name"]/text()')
 print(titles)
 
-prices = new_releases.xpath('.//div[@class="discount_final_price"]/text()')
+prices = new_releases.xpath(
+    './/div[@class="discount_final_price"]/text()')
 print(prices)
 
 # tags = new_releases.xpath('.//div[@class="tab_item_top_tags"]')
@@ -27,7 +28,8 @@ print(prices)
 #
 # print(total_tags)
 
-tags = [tag.text_content() for tag in new_releases.xpath('.//div[@class="tab_item_top_tags"]')]
+tags = [tag.text_content() for tag in new_releases.xpath(
+    './/div[@class="tab_item_top_tags"]')]
 tags = [tag.split(', ') for tag in tags]
 print(tags)
 
@@ -42,7 +44,6 @@ for game in platforms_div:
     total_platforms.append(platforms)
 
 print(total_platforms)
-
 
 output = []
 for info in zip(titles, prices, tags, total_platforms):

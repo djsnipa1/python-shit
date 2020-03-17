@@ -18,10 +18,12 @@ PASTERY_API_KEY = os.getenv("PASTERY_API_KEY")
 
 # send_headers = {'Accept': 'application/json'}
 
-response = requests.get('https://www.pastery.net/api/paste/?api_key=' + PASTERY_API_KEY)
+response = requests.get('https://www.pastery.net/api/paste/?api_key='
+                        + PASTERY_API_KEY)
 response.encoding = 'utf-8'  # Optional: requests infers this internally
 
 print(response.json())
+
 
 def get_joke():
     """

@@ -25,11 +25,15 @@ SPOTIPY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
 SPOTIPY_REDIRECT_URI = os.getenv("SPOTIFY_REDIRECT_URI")
 username = os.getenv("SPOTIFY_USERNAME")
 
-client_credentials_manager = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET)
+client_credentials_manager = SpotifyClientCredentials(
+    client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-scope = 'playlist-modify-private user-library-read user-read-currently-playing user-read-playback-state user-read-recently-played'
-token = util.prompt_for_user_token(username, scope, SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, SPOTIPY_REDIRECT_URI)
+scope = "playlist-modify-private user-library-read " \
+        "user-read-currently-playing user-read-playback-state " \
+        "user-read-recently-played"
+token = util.prompt_for_user_token(username, scope, SPOTIPY_CLIENT_ID,
+                                   SPOTIPY_CLIENT_SECRET, SPOTIPY_REDIRECT_URI)
 
 if token:
     sp = spotipy.Spotify(auth=token)
@@ -108,7 +112,8 @@ def current_track_to_playlist():
     # spotify:playlist:4LX0m5XMIUVpiktVfUu1qY
     tracks = [current_track['item']['id']]
     # pprint(current_track['item'])
-    added_to_playlist = sp.user_playlist_add_tracks(username, playlist_id, tracks)
+    added_to_playlist = sp.user_playlist_add_tracks(
+        username, playlist_id, tracks)
     print(added_to_playlist)
 
 
@@ -121,7 +126,8 @@ def print_playlist_tracks():
     while True:
         response = sp.playlist_tracks(playlist_id,
                                       offset=offset,
-                                      fields='items.track.name,items.track.id,total')
+                                      fields='items.track.name,'
+                                             'items.track.id,total')
         pprint(response['items'])
         offset = offset + len(response['items'])
         print(offset, "/", response['total'])
@@ -130,7 +136,8 @@ def print_playlist_tracks():
             break
 
 
-print("Do you want to add '" + current_track_artist_name + " = " + current_track_name + "' to a playlist?")
+print("Do you want to add '" + current_track_artist_name +
+      " = " + current_track_name + "' to a playlist?")
 playlist_choice = str.lower(input("[Y]es or [N]o ? "))
 # number2 = float(input("Enter the second number: "))
 # solution = number1 + number2

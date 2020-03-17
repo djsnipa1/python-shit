@@ -24,7 +24,6 @@ PASSWORD = os.getenv("PASSWORD")
 
 sn = simplenote.Simplenote(USER, PASSWORD)
 
-
 html = requests.get("https://store.steampowered.com/explore/new/")
 doc = lxml.html.fromstring(html.content)
 
@@ -36,7 +35,8 @@ title = doc.find(".//title").text
 
 parsed_note = {}
 
-s = "This is my tweet check it out http://tinyurl.com/blah and http://blabla.com"
+s = "This is my tweet check it out " \
+    "http://tinyurl.com/blah and http://blabla.com"
 print(re.findall(r"(https?://\S+)", s))
 
 with open("parse.txt", "r", encoding="utf8") as fh:
@@ -72,8 +72,5 @@ with open("parse.txt", "r", encoding="utf8") as fh:
         print("> " + split + "\n")  # adds a new line after the description
         note.append("- - -")
         print("- - -")  # obviously adds a hr to the file
-
-        # with open('parsed.md', 'w', encoding='utf-8') as outfile:  # type: IO[str]
-        #     outfile.write(html2text.html2text(pretty))
 
     print(note)

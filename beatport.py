@@ -24,7 +24,8 @@ print(prices)
 #
 # print(total_tags)
 
-tags = [tag.text_content() for tag in new_releases.xpath('.//div[@class="tab_item_top_tags"]')]
+tags = [tag.text_content() for tag in new_releases.xpath(
+    './/div[@class="tab_item_top_tags"]')]
 tags = [tag.split(', ') for tag in tags]
 print(tags)
 
