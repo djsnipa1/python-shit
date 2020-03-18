@@ -21,7 +21,8 @@ while True:
     response = urllib.request.urlopen(req)
     the_page = response.read()
 
-    print("1 good")
+    print("good " + url)
+    print(40 * "-=")
 
     someurl = "https://www.writeguard.com/catalog/Health-Care/" \
               "Generic-Billing-Statements/" \
@@ -39,7 +40,7 @@ while True:
         print('We failed to reach a server.')
         print('Reason: ', e.reason)
     else:
-        print("everything is fine")
+        print("also good " + someurl)
 
     now = datetime.now()  # current date and time
     date_time = now.strftime("%m/%d/%Y, %I:%M:%S%p")

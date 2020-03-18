@@ -28,8 +28,13 @@ def print_latest():
     print('Recovered: ' + str(recovered_latest))
 
 
-print_latest()
-# print(pd_data['latest'])
+# pd_data = pd.json_normalize(data)
+pd_locations = pd.DataFrame(data['confirmed']['locations'], columns=["country", "latest", "province"])
+
+# print_latest()
+print(pd_locations.head())
+
+print(pd_locations.sort_values(by=['latest']))
 
 # TODO This block of code
 # for key, items in data['confirmed']['locations']:
@@ -39,10 +44,8 @@ print_latest()
 
 # print(data['confirmed']['locations'].index("US"))
 #
-# pd_data = pd.DataFrame(data['confirmed']['locations'])
 #
 # pd_country = pd.DataFrame(data['confirmed']['locations'][0])
 #
-# json_data = pd.json_normalize(data)
 #
 # print(json_data['confirmed.locations'])
