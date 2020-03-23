@@ -17,6 +17,8 @@ spotipy = "*"
 pandas = "*"
 kivy = "*"
 kivy-examples = "*"
+pillow = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.7"
