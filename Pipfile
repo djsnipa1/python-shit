@@ -19,6 +19,7 @@ kivy = "*"
 kivy-examples = "*"
 pillow = "*"
 matplotlib = "*"
+windows-curses = "*"
 
 [requires]
 python_version = "3.7"
