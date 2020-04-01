@@ -1,4 +1,9 @@
 # coding=utf-8
+"""
+Tutorial from here:
+Curses in Windows with Python | DevDungeon
+https://www.devdungeon.com/content/curses-windows-python
+"""
 import curses
 
 screen = curses.initscr()

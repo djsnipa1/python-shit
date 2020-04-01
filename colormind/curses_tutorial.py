@@ -1,4 +1,9 @@
 # coding=utf-8
+"""
+Tutorial from here:
+Curses in Windows with Python | DevDungeon
+https://www.devdungeon.com/content/curses-windows-python
+"""
 import curses
 
 # The `screen` is a window that acts as the master window
@@ -39,4 +44,3 @@ my_window.refresh()
 curses.napms(1000)
 
 curses.endwin()
-
