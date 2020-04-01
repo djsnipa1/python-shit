@@ -21,6 +21,7 @@ The color palette is indexed as follows:
     24 shades of gray, not including black and white.
 """
 
+
 def rgb(red, green, blue):
     """
     Calculate the palette index of a color in the 6x6x6 color cube.
@@ -29,6 +30,7 @@ def rgb(red, green, blue):
     """
     return 16 + (red * 36) + (green * 6) + blue
 
+
 def gray(value):
     """
     Calculate the palette index of a color in the grayscale ramp.
@@ -36,6 +38,7 @@ def gray(value):
     The value argument may range from 0 to 23.
     """
     return 232 + value
+
 
 def set_color(fg=None, bg=None):
     """
@@ -49,11 +52,13 @@ def set_color(fg=None, bg=None):
     if bg:
         print('\x1b[48;5;%dm' % bg, end='')
 
+
 def reset_color():
     """
     Reset terminal color to default.
     """
     print('\x1b[0m', end='')
+
 
 def print_color(*args, fg=None, bg=None, **kwargs):
     """
@@ -62,6 +67,7 @@ def print_color(*args, fg=None, bg=None, **kwargs):
     set_color(fg, bg)
     print(*args, **kwargs)
     reset_color()
+
 
 if __name__ == '__main__':
     # Print a test graphic showing all colors.

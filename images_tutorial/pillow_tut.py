@@ -1,6 +1,6 @@
 from PIL import Image
-from matplotlib import image
 from matplotlib import pyplot
+# from matplotlib import image
 import numpy as np
 from numpy import asarray
 
@@ -16,7 +16,7 @@ def pillow_tut():
 
 
 def matplotlib_tut():
-    image = image.imread('kolala.jpeg')
+    image = Image.imread('kolala.jpeg')
 
     print(image.dtype)
     print(image.shape)
@@ -50,7 +50,7 @@ def convert_to_grayscale():
     im = np.array(Image.open('kolala.jpeg').convert('L'))
     print(type(im))
 
-    gr_im = Image.fromarray(im).save('gr_kolala.png')
+    # gr_im = Image.fromarray(im).save('gr_kolala.png')
 
 
 load_img_rz = np.array(Image.open('kolala.jpeg').resize((200, 200)))

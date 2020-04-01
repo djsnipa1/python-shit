@@ -1,3 +1,6 @@
 [submodule "Beatporter"]
 	path = Beatporter
 	url = https://github.com/rootshellz/Beatporter
+[submodule "color_palettes/color-palette"]
+	path = color_palettes/color-palette
+	url = git@github.com:portnov/color-palette.git

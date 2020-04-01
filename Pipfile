@@ -4,6 +4,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+windows-curses = "*"
+opencv-python = "*"
+kivy = "*"
+kivy-examples = "*"
+urwid = "*"
 
 [packages]
 requests = "*"
@@ -15,11 +20,8 @@ html2text = "*"
 beautifulsoup4 = "*"
 spotipy = "*"
 pandas = "*"
-kivy = "*"
-kivy-examples = "*"
 pillow = "*"
 matplotlib = "*"
-windows-curses = "*"
 
 [requires]
 python_version = "3.7"
