@@ -1,53 +1,32 @@
 Python Shit 🐍 💩 
 ==================
 
-Small scripts that helped me learn Python
------------------------------------------
-
+> Small scripts that helped me learn Python
 
 [//]: # "![My Python Shit](https://github.com/djsnipa1/python-shit/workflows/My%20Python%20Shit/badge.svg?branch=master)"
-
-
 [//]: # "[![Build Status 2](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fdjsnipa1%2Fpython-shit%2Fbadge&style=popout)](https://actions-badge.atrox.dev/djsnipa1/python-shit/goto)"
 
-![my badge](assets/badge1.svg)
-![Python](https://img.shields.io/badge/‎%E2%80%8E-Python-orange?logo=python&logoColor=white)
+ 
+![Python](https://img.shields.io/badge/‎%E2%80%8E-Python-orange?logo=python&logoColor=white&style=plastic)
+![Github last commit](https://img.shields.io/github/last-commit/djsnipa1/python-shit?style=plastic)
+![Github commit activity](https://img.shields.io/github/commit-activity/m/djsnipa1/python-shit?style=plastic)
 
 [![Build Status 1](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fdjsnipa1%2Fpython-shit%2Fbadge&style=plastic)](https://actions-badge.atrox.dev/djsnipa1/python-shit/goto)
 ![Requires.io](https://img.shields.io/requires/github/djsnipa1/python-shit?style=plastic)
 
-![Github last commit](https://img.shields.io/github/last-commit/djsnipa1/python-shit?style=plastic)
-![Github commit activity](https://img.shields.io/github/commit-activity/m/djsnipa1/python-shit?style=plastic)
+>![my badge 1](https://raw.githubusercontent.com/djsnipa1/python-shit/assets/assets/badge1.svg?sanitize=true)
+>![badge](https://raw.githubusercontent.com/djsnipa1/python-shit/assets/assets/badge1-good.svg?sanitize=true)
+>I made these badges with `pybadges`
 
-This repo is for my python scripts I’m making to learn Python. 
+[//]: # "![my badge 2](https://raw.githubusercontent.com/djsnipa1/python-shit/assets/assets/badge2.svg?sanitize=true)" 
+
+![Python Logo](https://www.python.org/static/community_logos/python-powered-w.svg)
+
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://placehold.it/15/FF6799/000000?text=+) `#FF6799`
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
 
 
-<a href="http://fvcproductions.com"><img src="https://avatars1.githubusercontent.com/u/4284691?v=3&s=200" title="FVCproductions" alt="FVCproductions"></a>
-
-<!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
-
-***INSERT GRAPHIC HERE (include hyperlink in image)***
-
-# Repository Title Goes Here
-
-> Subtitle or Short Description Goes Here
-
-> ideally one sentence
-
-> include terms/tags that can be searched
-
-**Badges will go here**
-
-- build status
-- issues (waffle.io maybe)
-- devDependencies
-- npm package
-- coverage
-- slack
-- downloads
-- gitter chat
-- license
-- etc.
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Dependency Status](http://img.shields.io/gemnasium/badges/badgerbadgerbadger.svg?style=flat-square)](https://gemnasium.com/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger) [![Code Climate](http://img.shields.io/codeclimate/github/badges/badgerbadgerbadger.svg?style=flat-square)](https://codeclimate.com/github/badges/badgerbadgerbadger) [![Github Issues](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/issues.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger/issues) [![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger/pulls) [![Gem Version](http://img.shields.io/gem/v/badgerbadgerbadger.svg?style=flat-square)](https://rubygems.org/gems/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) [![Badges](http://img.shields.io/:badges-9/9-ff6799.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger)
 
