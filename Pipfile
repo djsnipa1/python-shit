@@ -30,6 +30,7 @@ pillow = "*"
 matplotlib = "*"
 yaspin = "*"
 pybadges = "*"
+pixelhouse = "*"
 
 [requires]
 python_version = "3.7"
