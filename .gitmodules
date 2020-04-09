@@ -4,3 +4,6 @@
 [submodule "color_palettes/color-palette"]
 	path = color_palettes/color-palette
 	url = git@github.com:portnov/color-palette.git
+[submodule "pixelhouse"]
+	path = pixelhouse
+	url = https://github.com/thoppe/pixelhouse

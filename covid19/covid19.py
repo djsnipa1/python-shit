@@ -21,8 +21,8 @@ save_json()
 confirmed_latest = data['latest']['confirmed']
 deaths_latest = data['latest']['deaths']
 recovered_latest = data['latest']['recovered']
-deaths_updated_json = data['deaths']['last_updated']
-deaths_updated = datetime.fromisoformat(deaths_updated_json)
+# deaths_updated_json = data['deaths']['last_updated']
+# deaths_updated = datetime.fromisoformat(deaths_updated_json)
 
 
 def print_latest():
@@ -31,7 +31,7 @@ def print_latest():
     """
     print("Confirmed: " + str(confirmed_latest))
     print("Deaths: " + str(deaths_latest))
-    print("Last Updated: " + deaths_updated)
+    # print("Last Updated: " + deaths_updated)
     print('Recovered: ' + str(recovered_latest))
 
 
