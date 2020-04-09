@@ -15,7 +15,7 @@ kivy-deps-sdl2 = "==0.1.*"
 kivy-deps-glew = "==0.1.*"
 jupytext = "*"
 ipykernel = "*"
-ffmpeg-python = "*"
+ffmpy = "*"
 
 [packages]
 requests = "*"
