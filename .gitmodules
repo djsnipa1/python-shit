@@ -7,3 +7,6 @@
 [submodule "pixelhouse"]
 	path = pixelhouse
 	url = https://github.com/thoppe/pixelhouse
+[submodule "stackoverflow-scraper"]
+	path = stackoverflow-scraper
+	url = https://github.com/djsnipa1/stackoverflow-scraper
